@@ -13,7 +13,6 @@ def execute_command(command):
         pyautogui.typewrite('brave')
         pyautogui.hotkey('enter')
         print("Opening Brave browser...")
-        # Add any additional actions you want to perform after opening Brave
     else:
         print("Command not recognized.")
 
